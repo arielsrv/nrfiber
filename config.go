@@ -18,7 +18,7 @@ type Config struct {
 	NewRelicApp *newrelic.Application
 }
 
-// ConfigDefault is the default config
+// ConfigDefault is the default config.
 var ConfigDefault = Config{
 	Next:        nil,
 	NewRelicApp: &newrelic.Application{},

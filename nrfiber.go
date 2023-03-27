@@ -49,7 +49,7 @@ func toHTTPRequest(ctx *fasthttp.RequestCtx) *http.Request {
 	}
 }
 
-// New creates a new middleware handler
+// New creates a new middleware handler.
 func New(config ...Config) fiber.Handler {
 	// Set default config
 	cfg := ConfigDefault
