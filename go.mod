@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/gofiber/fiber/v2 v2.43.0
 	github.com/newrelic/go-agent/v3 v3.21.1
-	github.com/valyala/fasthttp v1.45.0
+	github.com/valyala/fasthttp v1.46.0
 )
 
 require (
